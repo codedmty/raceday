@@ -1,0 +1,34 @@
+html {
+    background-color: lightgrey;
+}
+
+.formcontainer{
+    height:340px;
+    width: 200px;
+    margin-top:15%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+img {
+    width:100%;
+}
+
+.form {
+    width:145px;
+    margin: auto;
+}
+
+.name {
+    width: 140px;
+    margin:auto;
+}
+
+.age {
+    width: 140px;
+    margin:auto;
+}
+
+p {
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Race Day</title>
+        <script src="main.js"></script>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class='formcontainer'>
+                <img src="checkered%20flag.png" />
+                <form class='form' action="#" method="post" onsubmit="return getFormData()">
+                    <input class='name' type="text" name="name" id="name" placeholder="name"><br>
+                    <input class='age' type="text" name="age" id="age" placeholder="age"><br>
+                    <input type="checkbox" id="check">I Registered Early<br>
+                    <input class="button" name="submit" type="submit" value="submit" />
+                </form>
+                <p id="output"></p>
+            </div>
+        </div>
+    </body>
+</html>
