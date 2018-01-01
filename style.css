@@ -29,6 +29,10 @@ img {
     margin:auto;
 }
 
+#alert {
+    color: red;
+}
+
 p {
     text-align: center;
 }
